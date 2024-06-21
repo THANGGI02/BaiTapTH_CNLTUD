@@ -1,0 +1,29 @@
+ Bài 3: HTTP, URL, File sytem Modules trong NodeJS
+ 1. HTTP module:
+    - Khái niệm: Là module cho phép Nodejs truyền dữ liệu qua giao thức http
+    - Chức năng: tạo một máy chủ HTTP lắng nghe các cổng kết nối trên đó và trả lời lại cho máy máy khách(client)
+    - Phương thức: 
+      + createServer(): tạo một máy chủ HTTP
+        Trong phương thức createServer() có 2 tham số:
+        + req viết tắt của request là biến chứa các thông tin mà Client truyền lên Server
+          - Phương thức:
+            + req.url(): thuộc tính này chứa các phần tử phía sau tên miền của bạn
+        + res viết tắt của response là biến chưa các thông tin mà Server trâ về cho Client
+          - Phương thức:
+            + res.writeHead(): định nghĩa kiểu dữ liệu trả về
+            + res.write(): Thiết lập nội dung mà sever muốn trả về cho client
+ 2. URL module:
+    - Chức năng: Chia nhỏ dịa chỉ trang web thành các phần có thể đọc được
+                 Phục vụ cho nhiều tác vụ cần lấy dữ liệu từ url
+ 3. FS(file system) module:
+    - Khái niệm: Cho phép làm việc với các file ở trên máy tính
+    - Chức năng: Tạo file 
+                 Đọc file
+                 Cập nhật file
+                 Đổi tên file
+                 Xóa file
+    - Phương thức:
+      + writeFile(): Tạo file
+      + readFile(): Đọc file
+      + appendFile(): Cập nhật file
+      + rename(): Đổi tên file

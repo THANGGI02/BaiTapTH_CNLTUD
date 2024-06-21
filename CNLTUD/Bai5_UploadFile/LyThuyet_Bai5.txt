@@ -1,0 +1,17 @@
+Bài 5: Upload Files
+1) Formidable
+   - Khái niệm: Là một module giúp phân tích dữ liệu biểu mẫu, tập trung vào việc tải lên các tệp tin
+   - Thư viện: formidable
+   - Ưu điểm:
+     + Non-buffering multipart parser: Tốc độ cao, lên tới xấp xỉ 500mb/giây và không cần bộ nhớ đệm cho việc phân tích cú pháp.
+     + Automatically writing file uploads to disk: Tự động ghi lại các tập tin tải lên.
+     + Graceful error handling: Cú pháp bắt lỗi & xử lý lỗi dễ dàng.
+     + Low memory footprint: Có thể hiểu đơn giản là thư viện này tiêu tốn ít Ram.
+     + Very high test coverage: Thư viện này đã được viết test rất cẩn thận
+   - Cài đặt module: npm install --save formidable
+
+2) Multer
+   - Khái niệm: Multer là một middleware cho Express và Nodejs giúp dễ dàng xử lý dữ liệu multipart/form-data khi người dùng upload file.
+   - Chú ý: Multer sẽ không xử lý bất kỳ form nào ngoài multipart (multipart/form-data).
+   - Thư viện: multer.
+   - Cài đặt module: npm install --save nulter.

@@ -1,0 +1,7 @@
+ Bài 1: Tổng quan về NodeJS
+ - Cú pháp:
+   + Khởi tạo một project node: npm init --y
+   + Chạy lệnh: npm start
+   + Cài đặt express: npm install express --save
+
+ 
