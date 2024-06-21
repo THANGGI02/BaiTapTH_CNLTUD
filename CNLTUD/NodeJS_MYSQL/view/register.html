@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí tài khoản</title>
+    <style>
+        /* Container styling */
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align the content */
+}
+
+/* Form header styling */
+.container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form table styling */
+form {
+    width: 100%;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Center align the table */
+}
+
+form td {
+    padding: 10px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: left; /* Right-align labels */
+}
+
+/* Form inputs */
+input[type="text"], 
+input[type="password"], 
+input[type="email"] {
+    width: 220px; /* Adjust width to accommodate padding */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST">
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            <h1>Đăng kí</h1>
+                        </td>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="">Tên đăng nhập</label>
+                        </td>
+    
+                        <td>
+                            <input type="text" name="username" placeholder="Nhập tên đăng nhập" required>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Mật khẩu: </label>
+                        </td>
+    
+                        <td>
+                            <input type="password" name="pass" placeholder="Nhập mật khẩu" required>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Nhập lại mật khẩu: </label>
+                        </td>
+    
+                        <td>
+                            <input type="password" name="re_pass" placeholder="Nhập lại mật khẩu" required>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Họ tên</label>
+                        </td>
+    
+                        <td>
+                            <input type="text" name="hoten" placeholder="Nhập họ tên">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Email</label>
+                        </td>
+    
+                        <td>
+                            <input type="email" name="your_email" placeholder="Nhập email của bạn" required>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Đăng kí">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>

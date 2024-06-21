@@ -2,6 +2,10 @@ BÀI 11: NODEJS VÀ MYSQL
 - Thư viện: mysql 
 - Cú pháp: npm install mysql
 - Các bước tạo kết nối là:
+  + Cú pháp:
+    + npm init --y
+    + npm install express --save
+    + npm install mysql
   + Đăng nhập vào tạo dữ liệu
     B1: Bật Wampserver64
     B2: Đăng nhập vào phpMyAdmin có địa chỉ: http://localhost/phpmyadmin/
