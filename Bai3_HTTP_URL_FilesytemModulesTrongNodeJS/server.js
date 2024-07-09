@@ -4,8 +4,8 @@ const fs = require('fs');
 const hostname = 'localhost';
 const port = 3003;
 const server = http.createServer((req, res)=>{
-    const urlData = url.parse(req.url, true);
-    const fileName = './views' + urlData.pathname;
+    let urlData = url.parse(req.url, true);
+    let fileName = './views' + urlData.pathname;
     if(urlData.pathname === '/'){
         fileName = './views/index.html';
     }
@@ -15,11 +15,13 @@ const server = http.createServer((req, res)=>{
     if(urlData.pathname === '/dog.html'){
         fileName = './views/dog.html';
     }
+
     fs.readFile(fileName, (err, data)=>{
         if(err) throw err;
         res.writeHead(200, ('Content-Type', 'text/html'));
         res.write(data);
         return res.end();
-    })
+    });
+    
 });
 server.listen(port, hostname);
