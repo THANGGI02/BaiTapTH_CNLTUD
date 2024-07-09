@@ -1,6 +1,0 @@
- Bài 2: Module trong NodeJS
- - Khái niệm: 
-   + Là các đoạn code được đóng gói lại với nhau và được giữ Private
-   + Chỉ các hàm và biến được định nghĩa bên trong Module là có thể truy cập và thao tác với nhau
-   + Khi sử dụng Module từ bên ngoài thì chúng ta sẽ chìa các API là các biến, các hàm hoặc cả 2 biến
-   + Hàm ra bên ngoài bằng cách sử dụng đối tượng exports hoặc module.exports

@@ -1,5 +1,0 @@
-BÀI 9: QUAN SÁT, LẮNG NGHE NHỮNG HÀNH ĐỘNG CỦA MỘT THƯ MỤC, TẬP TIN
-1) Thư viện: chokidar
-   Chú ý: Thư viện fs-extra cũng giống module fs nhưng nó hỗ trợ cho chúng ta viết code xử lý bất đồng bộ với cú pháp async-await
-2) Cú pháp: npm i --save chokidar
-   Chú ý: npm i --save fs-extra

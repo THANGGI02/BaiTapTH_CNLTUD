@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 45px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        input{
+            height: 25px;       
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div>
+                <h1>SELECT FILE</h1>
+                <input type="file" name ="picture">
+            </div>
+
+            <div>
+                <input type="submit" name = "btn_upload_profile" value="Upload">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
