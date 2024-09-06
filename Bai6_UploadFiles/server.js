@@ -2,7 +2,7 @@ let express = require("express");
 let multer = require("multer");
 let path = require("path");
 let hostname = 'localhost';
-let port = 3000;
+let port = 3007;
 let app = express();
 
 //Route này trả về file upload cho client
