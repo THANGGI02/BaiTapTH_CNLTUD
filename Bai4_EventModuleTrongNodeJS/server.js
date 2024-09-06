@@ -3,7 +3,7 @@ const events = require('events');
 const cat = express();
 const EventEmitter = new events.EventEmitter();
 const hostname = 'localhost';
-const port = 3000;
+const port = 3004;
 const ringBell = () => {
     console.log("ring ring ring...");
 }
