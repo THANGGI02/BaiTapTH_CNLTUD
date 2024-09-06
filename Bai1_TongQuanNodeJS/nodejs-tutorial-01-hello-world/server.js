@@ -2,6 +2,7 @@
 const http = require('http');
 const hostname ='localhost';
 const port = 3000;
+
 //Tạo server
 const server = http.createServer((req, res)=>{
      //Trạng thái code, 200 là trạng thái thành công
