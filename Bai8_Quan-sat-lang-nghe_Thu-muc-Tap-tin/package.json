@@ -1,0 +1,16 @@
+{
+  "name": "bai8_quan-sat-lang-nghe_thu-muc-tap-tin",
+  "version": "1.0.0",
+  "main": "Observe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0"
+  }
+}
