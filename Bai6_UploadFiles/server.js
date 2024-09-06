@@ -20,6 +20,7 @@ let storage = multer.diskStorage({
         callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
     }
 });
+
 //Route này xử lý khi client thực hiện hành động upload file
 app.post('/upload-files', (req, res) => {
     let upload = multer({ storage: storage}).array('upload_files', 10);
