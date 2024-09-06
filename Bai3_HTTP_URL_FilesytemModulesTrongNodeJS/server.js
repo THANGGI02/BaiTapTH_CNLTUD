@@ -3,6 +3,7 @@ const url = require('url');
 const fs = require('fs');
 const hostname = 'localhost';
 const port = 3003;
+
 const server = http.createServer((req, res)=>{
     let urlData = url.parse(req.url, true);
     let fileName = './views' + urlData.pathname;
@@ -24,4 +25,5 @@ const server = http.createServer((req, res)=>{
     });
     
 });
+
 server.listen(port, hostname);
