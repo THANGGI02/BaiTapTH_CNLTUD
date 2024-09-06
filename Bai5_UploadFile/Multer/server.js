@@ -1,16 +1,9 @@
-/*
- Bài 5: Upload Files
- Multer
- - Cài đặt express: npm install --save express
- - Cài đặt multer: npm install --save nulter
-
-*/
 const express = require("express");
 const multer = require("multer");
 const path = require("path");
 const helpers = require('./helpers');
 const hostname = 'localhost';
-const port = 8017;
+const port = 3006;
 const app = express();
 
 //Route này trả về file upload cho client
